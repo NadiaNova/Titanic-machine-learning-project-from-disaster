@@ -1,2 +1,6 @@
 # Titanic-machine-learning-project-from-disaster
 A-beginner-level-project-with-machine-learning
+
+# Competition Overview: 
+
+The competition is simple: use machine learning to create a model that predicts which passengers survived the Titanic shipwreck. About my project: -We observed that various features in this project had missing values, therefore we handled the missing data by imputing the mean age, among other techniques. Preprocessing data is an essential step. Using one-hot encoding, we transformed categorical variables (such "Sex" and "Embarked") into numerical format. -We selected 'Pclass', 'Age', 'SibSp', 'Parch', 'Fare', 'Sex', 'Embarked' as the subset of features that would be most useful to predict survival. -The machine learning model that we employed was the Random Forest Classifier. For classification tasks, this approach is both robust and adaptable. To maximize the performance of the model, hyperparameter adjustment is essential, and there are numerous more approaches to investigate. -We evaluated the model's performance using accuracy as a metric. Achieving 100% accuracy is often a sign of overfitting, where the model fits the training data too closely and may not generalize well to new data. It's important to strike a balance between model complexity and generalization.
